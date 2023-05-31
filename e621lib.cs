@@ -86,7 +86,7 @@ namespace e621lib
     }
     public class Page
     {
-        Post[]? posts;
+        public Post[]? posts;
         public long page_id {
             get
             {
@@ -271,7 +271,7 @@ namespace e621lib
     }
     public class Artists
     {
-        Artist[]? artists;
+        public Artist[]? artists;
         public long page_id
         {
             get
@@ -319,7 +319,7 @@ namespace e621lib
     }
     public class Tags
     {
-        Tag[]? tags;
+        public Tag[]? tags;
         public long page_id
         {
             get
@@ -405,7 +405,7 @@ namespace e621lib
     }
     public class Blips
     {
-        Blip[]? blips;
+        public Blip[]? blips;
 
         public long page_id
         {
