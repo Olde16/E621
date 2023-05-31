@@ -7,7 +7,7 @@
         public long? comment_count;
         public string? created_at;
         public string? description;
-        public long? duration;
+        public decimal? duration;
         public long? fav_count;
         public Post_File? file;
         public Flags? flags;
