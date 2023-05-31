@@ -1,4 +1,4 @@
-﻿namespace e621lib
+namespace e621lib
 {
     public class Post
     {
